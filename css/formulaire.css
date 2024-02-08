@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.61);
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+.logo ul{
+    list-style: none;
+    margin-top: 10px;
+    
+}
+
+.logo ul li a {
+    color: #ffffff;
+    text-decoration: none;
+
+}
+.logo ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #645a5a;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(216, 28, 28, 0.1);
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="email"],
+input[type="tel"] {
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 250px;
+    border-radius: 50px;
+    border: 20px solid #50f9ff;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Voyageurs - Signup</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <ul>
+                <li><a href="index.html">Draxlmailer</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contact <br>DRÄXLMAIER Tunisie</h1>
+        <form id="signupForm">
+            <label for="newUsername">Nom et prenom</label>
+            <input type="text" id="newUsername" name="newUsername">
+            <p id="newUsernameError" class="error-message"></p><br><br>
+            
+            <label for="newAdresse">Adresse</label>
+            <input type="text" id="newAdresse" name="newAdresse">
+            <p id="newPasswordError" class="error-message"></p><br><br>
+
+            <label for="newEmail">Email:</label>
+            <input type="email" id="newEmail" name="newEmail">
+            <p id="newEmailError" class="error-message"></p><br><br>
+            
+            <label for="phoneNumber">Numéro de téléphone:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber">
+            <p id="phoneNumberError" class="error-message"></p><br><br>
+            
+            <input type="submit" value="Envoyer">
+        </form>
+    </main>
+
+    <footer>
+        @2023 copyrigtht DraxlmailerGroup
+    </footer>
+</body>
+</html>

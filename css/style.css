@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Didact Gothic ;
+    src: url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Pacifico&family=Rajdhani&family=Roboto:wght@100&family=Sansita+Swashed&family=Satisfy&family=Space+Mono&display=swap');
+}
+ .headerproduits{
+    background: url('../images/produits.jpg.jpg') white no-repeat;
+    background-size: cover;
+padding: 300;
+ }
+header{
+    background: url('../images/draxmailer.jpg') white no-repeat;
+    background-size: cover;
+       margin: 0px;
+       padding: 200px;
+       
+    }
+    #section1{
+        background: url('../images/drax.jpg') white no-repeat;
+        background-size: cover;
+           margin: 15px;
+           padding: 300px;
+           
+        }
+
+    nav{
+        top:3.2em;
+        right: 0;
+        position: fixed;
+        transition: all 0.3s ease-out;
+        margin-top: 0px;
+
+    }   
+
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 200px;
+        
+    }    
+
+    nav a{
+        background-color: rgb(92, 228, 230);
+        text-decoration: none;
+        color: white;
+        margin-right: 15px;
+        font-size: 25px;
+        border-radius: 20px;
+        padding: 10px;
+    }   
+
+
+    nav a:hover{
+        background-color: rgb(240, 245, 245);
+        color: aqua;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .scroll-nav {
+    background-color: black;
+    }
+
+    #logo {
+        margin-top: 200px;
+        margin-left:-100px;
+    }
+    #logo a {
+        margin-top: 200px;
+        margin-left:-100px;
+    }   
+ #article1 {
+            position: absolute;
+            margin-left: 200px;
+        
+        }
+ #article2 {
+            position: absolute;
+            margin-left: 600px;
+        
+        }
+
+ #article3 {
+            position: absolute;
+            margin-left: 1000px;
+        
+        }       
+
+ #article4 {
+            position: absolute;
+            margin-left: 1400px;
+        
+        } 
+        
+#ar1 {
+            position: absolute;
+            margin-left: 0px;
+        
+        }
+ #ar2 {
+            position: absolute;
+            margin-left: 400px;
+        
+        }
+
+ #ar3 {
+            position: absolute;
+            margin-left: 800px;
+        
+        }       
+
+ #ar4 {
+            position: absolute;
+            margin-left: 1200px;
+        
+        }             
+.aboutt {
+    background-color: black;
+    color: azure;
+ background-size: cover;
+ padding: 100px;
+}
+
+#section1{
+
+    background-color: rgb(243, 235, 235);
+ background-size: cover;
+ padding: 200px;
+
+}
+
+button {
+
+    background-color: rgb(100, 196, 218); /* Green */
+    border: none;
+    color: white;
+    padding: 70px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+
+}
+
+button:hover{
+    background-color: rgb(240, 245, 245);
+    color: aqua;
+    padding: 70px;
+    border-radius: 0px; }
+
+ #p p{
+font-size: 90px;
+color: rgb(44, 150, 150);
+    }
+
+.copyright {
+margin-right: 1000px;
+}
